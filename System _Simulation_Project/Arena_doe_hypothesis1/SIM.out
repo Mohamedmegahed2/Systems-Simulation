@@ -1,0 +1,136 @@
+
+                                      ARENA Simulation Results
+                            mohamedarafa099@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/30/2020
+Analyst: mohamedarafa099@gmail.com                                   Model revision date: 4/30/2020
+
+Replication ended at time      : 100000.0 Minutes 
+Statistics were cleared at time: 500.0 Minutes (Thursday, April 30, 2020, 08:20:00)
+Statistics accumulated for time: 99500.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Operation 3.WaitTimePerEntity               3.7012     (Corr)     .00000     6.7136       6550    
+Operation 2.WaitTimePerEntity               1.6174     (Corr)     .00000     4.2197       6550    
+Operation 1.WaitTimePerEntity               106.50     24.612     .00000     303.90       6550    
+Operation 3.VATimePerEntity                 15.000     2.5314E-05 14.996     15.003       6550    
+Operation 2.VATimePerEntity                 15.000     2.8249E-05 14.996     15.003       6550    
+Operation 1.VATimePerEntity                 15.000     2.3763E-05 14.995     15.003       6550    
+Loading Zone 3.VATimePerEntity              .00000     .00000     .00000     .00000       6550    
+Loading Zone 2.VATimePerEntity              .00000     .00000     .00000     .00000       6550    
+Loading Zone 1.VATimePerEntity              .00000     .00000     .00000     .00000       6563    
+Unloading Zone 3.VATimePerEntity            .00000     .00000     .00000     .00000       6550    
+Unloading Zone 2.VATimePerEntity            .00000     .00000     .00000     .00000       6550    
+Unloading Zone 1.VATimePerEntity            .00000     .00000     .00000     .00000       6550    
+Unloading Zone 3.TotalTimePerEntity         .00000     .00000     .00000     .00000       6550    
+Unloading Zone 2.TotalTimePerEntity         .00000     .00000     .00000     .00000       6550    
+Unloading Zone 1.TotalTimePerEntity         .00000     .00000     .00000     .00000       6550    
+Cycle Time                                  165.68     (Corr)     50.499     363.67       6551    
+Operation 3.TotalTimePerEntity              18.701     (Corr)     14.997     21.712       6550    
+Operation 2.TotalTimePerEntity              16.617     (Corr)     14.997     19.220       6550    
+Operation 1.TotalTimePerEntity              121.50     24.612     14.997     318.90       6550    
+Loading Zone 3.TotalTimePerEntity           .00000     .00000     .00000     .00000       6550    
+Loading Zone 2.TotalTimePerEntity           .00000     .00000     .00000     .00000       6550    
+Loading Zone 1.TotalTimePerEntity           .00000     .00000     .00000     .00000       6563    
+Entity 1.VATime                             45.000     4.6187E-05 44.994     45.006       6551    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       6551    
+Entity 1.WaitTime                           116.18     (Corr)     1.0016     314.18       6551    
+Entity 1.TranTime                           4.5000     5.9872E-16 4.5000     4.5000       6551    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       6551    
+Entity 1.TotalTime                          165.68     (Corr)     50.499     363.67       6551    
+Request Truck at station3.Queue.WaitingTim  .27185     .02704     .00000     6.9953       6550    
+Truck at station 1.Queue.WaitingTime        .26513     .03597     .00000     4.5626       6550    
+Operation 3.Queue.WaitingTime               3.7015     (Corr)     .00000     6.7136       6550    
+Request Truck at station2.Queue.WaitingTim  .25350     (Corr)     .00000     5.7109       6550    
+Operation 1.Queue.WaitingTime               106.53     24.629     .00000     303.90       6550    
+Operation 2.Queue.WaitingTime               1.6175     (Corr)     .00000     4.2197       6550    
+Request Truck.Queue.WaitingTime             .46746     .02236     .00000     6.4436       6563    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                10.930     1.7128     1.0000     25.000     17.000    
+Workstation 1.NumberBusy                    .98750     .00968     .00000     1.0000     1.0000    
+Workstation 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Workstation 1.Utilization                   .98750     .00968     .00000     1.0000     1.0000    
+Workstation 3.NumberBusy                    .98747     .00973     .00000     1.0000     1.0000    
+Workstation 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Workstation 3.Utilization                   .98747     .00973     .00000     1.0000     1.0000    
+Workstation 2.NumberBusy                    .98749     .00969     .00000     1.0000     1.0000    
+Workstation 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Workstation 2.Utilization                   .98749     .00969     .00000     1.0000     1.0000    
+Request Truck at station3.Queue.NumberInQu  .01790     .00151     .00000     1.0000     .00000    
+Truck at station 1.Queue.NumberInQueue      .01745     .00248     .00000     1.0000     .00000    
+Operation 3.Queue.NumberInQueue             .24367     (Corr)     .00000     1.0000     .00000    
+Request Truck at station2.Queue.NumberInQu  .01669     .00179     .00000     1.0000     .00000    
+Operation 1.Queue.NumberInQueue             7.0290     1.6622     .00000     21.000     14.000    
+Operation 2.Queue.NumberInQueue             .10648     (Corr)     .00000     1.0000     .00000    
+Request Truck.Queue.NumberInQueue           .03083     .00131     .00000     3.0000     .00000    
+Transporter 1.NumberBusy                    .50573     (Corr)     .00000     1.0000     .00000    
+Transporter 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 1.Utilization                   .50573     (Corr)     .00000     1.0000     .00000    
+Station 3.NumEntTrans                       .09874     9.6558E-04 .00000     1.0000     .00000    
+Station 2.NumEntTrans                       .06583     6.3928E-04 .00000     1.0000     .00000    
+Station 1.NumEntTrans                       .06596     7.8249E-04 .00000     1.0000     .00000    
+exit shop.NumEntTrans                       .06584     6.4707E-04 .00000     1.0000     .00000    
+Arrive Dock.NumEntTrans                     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading Zone 3 Accum VA Time              .00000    
+Operation 1 Accum VA Time                   98250.    
+Loading Zone 3 Number In                    6550.0    
+Loading Zone 2 Number In                    6550.0    
+Loading Zone 1 Number In                    6563.0    
+Loading Zone 3 Number Out                   6550.0    
+Loading Zone 2 Number Out                   6550.0    
+Loading Zone 1 Number Out                   6563.0    
+Throughput Time                             165.68    
+Loading Zone 3 Accum VA Time                .00000    
+Loading Zone 2 Accum VA Time                .00000    
+Loading Zone 1 Accum VA Time                .00000    
+Unloading Zone 1 Accum VA Time              .00000    
+Unloading Zone 1 Number Out                 6550.0    
+Operation 3 Number In                       6550.0    
+Operation 2 Number In                       6550.0    
+Operation 1 Number In                       6563.0    
+Operation 3 Number Out                      6550.0    
+Operation 2 Number Out                      6550.0    
+Operation 1 Number Out                      6550.0    
+Unloading Zone 1 Number In                  6550.0    
+Unloading Zone 2 Number Out                 6550.0    
+Unloading Zone 2 Number In                  6550.0    
+Unloading Zone 2 Accum VA Time              .00000    
+AGV Utilization                             .50573    
+Unloading Zone 3 Number In                  6550.0    
+Operation 2 Accum VA Time                   98250.    
+Operation 3 Accum Wait Time                 24243.    
+Operation 2 Accum Wait Time                 10594.    
+Operation 1 Accum Wait Time                 6.9759E+05
+Unloading Zone 3 Number Out                 6550.0    
+Operation 3 Accum VA Time                   98250.    
+Entity 1.NumberIn                           6562.0    
+Entity 1.NumberOut                          6551.0    
+Workstation 1.NumberSeized                  6550.0    
+Workstation 1.ScheduledUtilization          .98750    
+Workstation 3.NumberSeized                  6550.0    
+Workstation 3.ScheduledUtilization          .98747    
+Workstation 2.NumberSeized                  6550.0    
+Workstation 2.ScheduledUtilization          .98749    
+System.NumberOut                            6551.0    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.
